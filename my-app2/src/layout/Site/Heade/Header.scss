@@ -1,0 +1,64 @@
+.common{
+   display:flex ;
+   flex-direction: column;
+
+    &__navbar1{
+        width: 100%;
+        height: 40px;
+       display: flex;
+       align-items: center;
+justify-content: space-around;
+background-color:#bc5148 ;
+&__left{
+    display: flex;
+  width: 200px;
+  margin-left: 20px;
+   font-size: 12px;
+   #ocn{
+    font-size: 10px;
+    display: flex;
+    gap: 20px;
+   }
+   #btn1{
+    background-color: transparent;
+    border: none;
+    gap: 20px;
+   }
+   #btn2{
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color:#f4b214 ;
+   
+   }
+} 
+
+    }
+    
+
+    &__navbar2{
+        width: 100%;
+        height: 90px;
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__logo{
+        
+        h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        }
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        #link{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+    }
+}
+
+

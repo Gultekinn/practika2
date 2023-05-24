@@ -1,0 +1,36 @@
+.cards{
+    padding: 40px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+text-align: center;
+
+    .card{
+        padding: 20px;
+        width: 340px;
+        height: 400px;
+       
+text-align: center; 
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+border-radius: 18px;
+&__img{
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+#btnn{
+
+    margin-top: 6px;
+    background-color: transparent;
+    border-radius: 10px;
+    background-color: rgb(10, 80, 138);
+border: none;
+color: white;
+font-size: 20px;
+font-weight: 500;
+cursor: pointer;
+}  
+ }
+}
